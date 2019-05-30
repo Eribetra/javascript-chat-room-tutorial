@@ -1,5 +1,5 @@
 .message-form__button {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 20px;
@@ -8,5 +8,6 @@
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  border-radius: 8px;
+  cursor: pointer;
+  border-radius: 12px;
 }
