@@ -11,3 +11,6 @@
   cursor: pointer;
   border-radius: 12px;
 }
+.message-form__input {
+  border-radius: 12px;
+}
