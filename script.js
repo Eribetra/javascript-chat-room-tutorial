@@ -3,7 +3,7 @@
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes()
 
-const CLIENT_ID = '4cNswoNqM2wVFHPg';
+const CLIENT_ID = 'a1b2';
 
 const drone = new ScaleDrone(CLIENT_ID, {
   data: { // Will be sent out as clientData via events
