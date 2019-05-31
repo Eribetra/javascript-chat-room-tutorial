@@ -118,7 +118,12 @@ function updateMembersDOM() {
 
 function createMessageElement(text, member) {
   const el = document.createElement('div');
-  el.appendChild(createMemberElement(member+"at "+"time"+":"));
+  el.appendChild(createMemberElement(member));
+      el.appendChild(document.createTextNode("at ")); 
+        el.appendChild(document.createTextNode(time)); 
+        el.appendChild(document.createTextNode(": ")); 
+      el.appendChild(text);//test
+    el.style.color = "red";//test
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
   return el;
