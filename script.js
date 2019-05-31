@@ -120,7 +120,7 @@ function createMessageElement(text, member) {
   const el = document.createElement('div');
   el.appendChild(createMemberElement(member));
       el.appendChild(document.createTextNode("at ")); 
-      el.appendChild(document.createTextNode(time)); 
+      el.appendChild(document.createTextNode((time; "test"))); 
         el.appendChild(document.createTextNode(": ")); 
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
