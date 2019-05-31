@@ -1,5 +1,7 @@
 // PS! Replace this with your own channel ID
 // If you use this channel ID your app will stop working in the future
+var today = new Date();
+var time = today.getHours() + ":" + today.getMinutes()
 
 const CLIENT_ID = '4cNswoNqM2wVFHPg';
 
