@@ -63,10 +63,12 @@
       margin: 1px 1px;
       cursor: pointer;
       border-radius: 12px;
+      font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .message-form__input{
 border-radius: 12px
 }
     div {
         border-radius: 12px;
+              font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, sans-serif;
 }
