@@ -118,7 +118,7 @@ function updateMembersDOM() {
 
 function createMessageElement(text, member) {
   const el = document.createElement('div');
-  el.appendChild(createMemberElement("autumn_waterfall" +"at "+" "12:34""+":"));
+  el.appendChild(createMemberElement(("autumn_waterfall" +"at "+" "12:34""+":")));
       el.appendChild(document.createTextNode("at ")); 
         el.appendChild(document.createTextNode(time)); 
         el.appendChild(document.createTextNode(": ")); 
