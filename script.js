@@ -122,8 +122,6 @@ function createMessageElement(text, member) {
       el.appendChild(document.createTextNode("at ")); 
         el.appendChild(document.createTextNode(time)); 
         el.appendChild(document.createTextNode(": ")); 
-      el.appendChild(text);//test
-    el.style.color = "red";//test
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
   return el;
