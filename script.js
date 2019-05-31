@@ -2,6 +2,7 @@
 // If you use this channel ID your app will stop working in the future
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes()
+var at = "at"
 
 const CLIENT_ID = '4cNswoNqM2wVFHPg';
 
@@ -119,7 +120,7 @@ function updateMembersDOM() {
 function createMessageElement(text, member) {
   const el = document.createElement('div');
   el.appendChild(createMemberElement(member));
-      el.appendChild(document.createTextNode("at ")); 
+      el.appendChild(document.createTextNode((at.bold());)); 
         el.appendChild(document.createTextNode(time)); 
         el.appendChild(document.createTextNode(": ")); 
   el.appendChild(document.createTextNode(text));
