@@ -3,6 +3,9 @@
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes()
 var at = "at"
+var atbold = at.bold()
+var dbdot = ":"
+var dbdotbold = dbdot.bold()
 
 const CLIENT_ID = '4cNswoNqM2wVFHPg';
 
@@ -120,9 +123,9 @@ function updateMembersDOM() {
 function createMessageElement(text, member) {
   const el = document.createElement('div');
   el.appendChild(createMemberElement(member));
-      el.appendChild(document.createTextNode(at.bold())); 
+      el.appendChild(document.createTextNode(atbold)); 
         el.appendChild(document.createTextNode(time)); 
-        el.appendChild(document.createTextNode(": ")); 
+        el.appendChild(document.createTextNode(dbdotbold)); 
   el.appendChild(document.createTextNode(text));
   el.className = 'message';
   return el;
