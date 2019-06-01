@@ -1,4 +1,4 @@
-# Forked from the JavaScript chat room tutorial
+# Fork of the JavaScript chat room tutorial
 
 These are the project files for the [JavaScript chat room tutorial](https://www.scaledrone.com/blog/posts/javascript-chat-room-tutorial).
 
